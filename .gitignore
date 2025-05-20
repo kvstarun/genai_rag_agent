@@ -1,0 +1,14 @@
+# Ignore real .env file
+.env
+
+# Ignore Python caches and notebook junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore PDFs in documents/ but keep the folder
+documents/*
+!documents/.gitkeep
+
+# Ignore a specific folder
+db/
