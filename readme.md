@@ -20,14 +20,16 @@ The **GenAI RAG system** mimics the behavior of a smart assistant by attempting 
 
 ## 📁 Project Structure
 
+```
 GenAI_RAG_Project/
-├── ai_agent.ipynb # Main notebook for pipeline execution
-├── .env # Template file for secure API keys
-├── .gitignore # Git ignore rules
-├── README.md # Project documentation
-├── documents/ # Folder for PDF input files
-│ └── .gitkeep # Placeholder to retain folder in Git
-└── db/ # Directory for ChromaDB persistent storage
+├── ai_agent.ipynb
+├── .env
+├── .gitignore
+├── README.md
+├── documents/
+│ └── .gitkeep
+└── db/
+```
 
 ## Security & Best Practices
 
